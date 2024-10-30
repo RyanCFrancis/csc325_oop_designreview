@@ -10,7 +10,7 @@ package com.mycompany.csc325_oop_designreview_lab;
  */
 public class MainClass {
 
- public static void main(String[] args) {
+	public static void main(String[] args) {
 		// ToDo 5: Fix the error
 
 		// ToDo 6: Fix the constructor of the Student class
@@ -25,16 +25,20 @@ public class MainClass {
 		Student std1= new Student("James", (short) 20,45,"42 dolphin ave",2.0);
                 // ToDo 11: Add a toString method for the Senior class
 
-		Freshman std1= new Student("James", (short) 20, 12,"72 lark lane",3.7); // name, age, credits
+		Freshman std2= new Freshman("James", (short) 20, 12,"72 lark lane",3.7); // name, age, credits
 
-	 Senior std2 = new Student("John", (short) 30, 90,"107 Stanton Street",3.9);
+		Senior std3 = new Senior("John", (short) 30, 90,"107 Stanton Street",3.9);
 
 		// ToDo 12: Set the gpa of the student using the scanner and user
 		// 			input and then print the output.
 
+		std1.setGpa(3.99);
+
+		std2.setAddress("7 Lisa Drive");
+
 		System.out.println(std1);
 
-                System.out.println(std2);
+		System.out.println(std2);
 
 		// ToDo 13: add comments and explain your code
 
