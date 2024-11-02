@@ -51,6 +51,11 @@ public class Student extends Human {
         this.credits = credits;
     }
 
+    @Override
+    public String toString(){
+        return this.getName() + " lives at " + this.address + " and has a gpa of "+this.gpa;
+    }
+
     // ToDo 1: Make this class a child of Human - done
 
 	// ToDo 2: Fix the resulting errors - fixed constructor

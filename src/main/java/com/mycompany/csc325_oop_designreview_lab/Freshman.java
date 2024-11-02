@@ -5,4 +5,9 @@ public class Freshman extends Student {
     public Freshman(String name, short age, int credits, String address, double gpa) {
         super(name, age, credits, address, gpa);
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + " and has " + this.getCredits() + " credits";
+    }
 }

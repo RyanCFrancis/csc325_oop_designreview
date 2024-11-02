@@ -7,4 +7,9 @@ public class Senior extends Student {
             this.setCredits(85);
         }
     }
+
+    @Override
+    public String toString(){
+        return super.toString() + " and has " + this.getCredits() + " credits";
+    }
 }
