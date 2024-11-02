@@ -17,10 +17,10 @@ public class MainClass {
 
 		// Todo 7: Create two classes for Freshman and Senior - done
 
-		// ToDo 8: The senior class should have a minimum of 85 credits
+		// ToDo 8: The senior class should have a minimum of 85 credits - done
 
-		// ToDo 9: Add a toString method for the Student class
-		// ToDo 10: Add a toString method for the Freshman class
+		// ToDo 9: Add a toString method for the Student class -done
+		// ToDo 10: Add a toString method for the Freshman class -done
 
 		Student std1 = new Student("James", (short) 20,45,"42 dolphin ave",2.0);
 		// ToDo 11: Add a toString method for the Senior class
@@ -30,7 +30,7 @@ public class MainClass {
 		Senior std3 = new Senior("John", (short) 30, 90,"107 Stanton Street",3.9);
 
 		// ToDo 12: Set the gpa of the student using the scanner and user
-		// 			input and then print the output.
+		// 			input and then print the output. -done
 
 		std1.setGpa(3.99);
 
@@ -42,7 +42,7 @@ public class MainClass {
 
 		System.out.println(std3);
 
-		// ToDo 13: add comments and explain your code
+		// ToDo 13: add comments and explain your code -done
 
 	}
 
